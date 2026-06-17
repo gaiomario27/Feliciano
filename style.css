@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#f8f9fa;
+    color:#222;
+}
+
+/* HERO */
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:white;
+}
+
+.logo{
+    width:180px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    max-width:600px;
+    margin:auto;
+    color:#666;
+}
+
+.pesquisa{
+    margin-top:25px;
+
+    width:100%;
+    max-width:450px;
+
+    padding:15px;
+
+    border:none;
+    border-radius:50px;
+
+    background:#ececec;
+}
+.provincia{
+
+    display:block;
+
+    padding:50px 20px 20px;
+
+    background:white;
+
+    border-radius:15px;
+
+    text-decoration:none;
+
+    color:#222;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.provincia:hover{
+    transform:translateY(-5px);
+}
+
+.provincia h2{
+    margin-bottom:15px;
+    color:#0d4d92;
+}
+
+.detalhes{
+    list-style:none;
+}
+
+.detalhes li{
+    margin-bottom:8px;
+    line-height:1.5;
+    color:#555;
+}
+
+.detalhes strong{
+    color:#222;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:white;
+    margin-top:50px;
+    border-top:1px solid #ddd;
+}
